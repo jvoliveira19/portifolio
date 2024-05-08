@@ -25,7 +25,15 @@ P{
     color: #333;
 }
 /* ---DEFAULT---*/
-
+botao{
+    font-size: 7.29px;
+    line-height: 9.72px;
+    font-weight: 700;
+    width: 73.28px;
+    height: 9.72px;
+    letter-spacing: 0.81px;
+    align-items: center;
+}
 /*--- PERFIL---*/
 .perfil img{
     width: 350px;
