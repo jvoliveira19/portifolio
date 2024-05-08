@@ -29,10 +29,13 @@ botao{
     font-size: 7.29px;
     line-height: 9.72px;
     font-weight: 700;
-    width: 73.28px;
-    height: 9.72px;
     letter-spacing: 0.81px;
     align-items: center;
+    width: 73.28px;
+    height: 9.72px;
+    padding-top: 200.41px;
+    padding-left: 268.02px;
+
 }
 /*--- PERFIL---*/
 .perfil img{
