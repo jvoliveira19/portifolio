@@ -25,21 +25,28 @@ P{
     color: #333;
 }
 /* ---DEFAULT---*/
-botao{
-    font-size: 7.29px;
-    line-height: 9.72px;
-    font-weight: 700;
-    letter-spacing: 0.81px;
-    align-items: center;
-    width: 73.28px;
-    height: 9.72px;
-    padding-top: 200.41px;
-    padding-left: 268.02px;
-
+.botao{
+   padding: 13px 13px;
+   width: 225px;
+   height: 68px;
+   margin-top: 478px;
+   margin-left: 648px;
+   font-size: 18px;
+   font-weight: 24px;
+   letter-spacing: 2px;
+   text-align: center;
+   background-color: #0699A6;
+   color: white;
+   text-decoration: none;
 }
 /*--- PERFIL---*/
 .perfil img{
     width: 350px;
     height: 350px;
     border-radius: 100%;
+}
+.container{
+    width: 583px;
+    height: 302.43px;
+    display: flex;
 }
