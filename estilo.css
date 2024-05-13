@@ -49,15 +49,9 @@ P{
     display: flex;
 }
 
-@media screen and {max-width: 1024px;
+@media screen and (max-width: 1024px;){
     
-    .container{
-        flex-direction: column;
-    }
-    #header{
-        max-width: 100%;
-        justify-content: center;
-    }
+
     .perfil{
         width: 160px;
         height: 160px;
