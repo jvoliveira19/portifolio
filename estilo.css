@@ -50,21 +50,12 @@ P{
 }
 
 @media screen and (max-width: 1024px;){
-    
-
-    .perfil{
-        width: 160px;
-        height: 160px;
-        margin-top: 80px;
-        margin-left: 108px;
-
-    }
-    .h1{
+    h1{
         font-size: 56px;
         line-height: 46px;
-        font-weight: 900;
-        color: #333; 
-        align-items: center; 
-        
-    }
+     }
+     .perfil{
+        width: 160px;
+        margin-bottom: 40px;
+     }
 }
