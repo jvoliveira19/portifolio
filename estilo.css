@@ -50,6 +50,10 @@ P{
 }
 
 @media screen and {max-width: 1024px;
+    
+    .container{
+        flex-direction: column;
+    }
     #header{
         max-width: 100%;
         justify-content: center;
@@ -67,5 +71,6 @@ P{
         font-weight: 900;
         color: #333; 
         align-items: center; 
+        
     }
 }
