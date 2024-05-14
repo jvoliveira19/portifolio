@@ -1,62 +1,97 @@
-/* ---FONTE--- */
+/*---Fonte--- */
+
 h1{
-font-size: 126px;
-line-height: 112px;
-font-weight: 900;
-color: #333;
-}
-h2{
-font-size: 36px;
-line-height: 46px;
-font-weight: 900;
-color: #333;
-}
-h3{
-font-size: 18px;
-line-height: 24px;
-font-weight: 700;
-color: #9E8C6C;
-letter-spacing: 2px;
-}
-P{
+    font-size: 126px;
+    font-weight: 900;
+    line-height: 112px;
+    margin: 0 0 30px 0;
+    }
+    h2{
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 46px;
+    margin: 0 0 20px 0;
+    }
+    h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px; 
+    color: #9E8C6C;
+    letter-spacing: 2px; 
+    margin: 0 0 10px 0;
+    }
+    p{
     font-size: 20px;
-    line-height: 34px;
     font-weight: 400;
+    line-height: 34px;
     color: #333;
-}
-/* ---DEFAULT---*/
-.botao{
-  padding: 16px 45px;
-  background-color: #0699a6;
-
-  font-size: 18px;
-  text-decoration: none;
-  text-transform: uppercase; /*maiuscula*/
-  color: #fff;
-}
-/*--- PERFIL---*/
-.perfil img{
-    max-width: 345px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 100%;
+    }
     
-}
-.container{
-    width: 583px;
-    height: 302.43px;
-    display: flex;
-}
-
-@media screen and (max-width: 1024px){
-   
-    .h1{
-        font-size: 56px;
-        line-height: 46px;
+    /*---Fonte--- */
+    
+    /*---Default--- */
+    
+    .botao{
+       padding: 18px 62px;
+       margin: 10px 0;
+       font-size: 18px;
+       font-weight: 900;
+       background-color: #0699A6;
+       color: #fff;
+       text-decoration: none;
+       text-transform: uppercase;  
+    }
+     .container{
+       display: flex;
+       max-width: 1024px;
+       margin: 0 auto;
+       justify-content: space-between;
      }
-     .perfil{
-        width: 160px;
-        margin-bottom: 40px;
-     }
-}
+    
+    
+     /*--- Default--- */
+    
+    /*---HEADER--- */
+    #header{
+       width: 100%;
+       padding: 180px 0 209px 0;
+       background-color: #9e8c6c11;
+    }
+    
+    .perfil{
+       width: 350px;
+    }
+    
+    .perfil img{
+       width: 100%;
+       border-radius: 100%;
+    }
+    .perfil-sobre{
+       max-width: 635px;
+    }
+    /*---HEADER--- */
+    
+    /*---Tablet--- */
+    @media screen and (max-width:768px){
+       h1{
+          font-size: 56px;
+          line-height: 46px;
+       }
+       #header{
+          padding: 80px 0 130px 0;
+       }
+       #header .container{
+          flex-direction: column;
+          align-items: center;
+       }
+       .perfil{
+          width: 160px;
+          margin-bottom: 40px;
+       }
+       .perfil-sobre{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+       }
+    }
