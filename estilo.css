@@ -36,7 +36,7 @@ P{
 }
 /*--- PERFIL---*/
 .perfil img{
-    width: 345px;
+    max-width: 345px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
