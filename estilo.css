@@ -88,15 +88,30 @@ h1{
     .perfil-sobre{
        max-width: 635px;
     }
+    .sobre{
+        width: 740px;
+    }
     /*---Header--- */
     
     /*---Main--- */
     .skillset, .Careertraits, .Recentework, .awards{
        margin-bottom: 100px;
+       width: 350px;
+    }
+    .sobre{
+        width: 635px;
+        padding-right: 300px;
     }
     #main{
        padding-top: 96px;
+       display: flex;
     }
+    .ladoalado{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+   
     /*---Main--- */
     
     /*---Footer---*/
