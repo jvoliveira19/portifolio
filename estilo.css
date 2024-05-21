@@ -111,6 +111,11 @@ h1{
         justify-content: space-between;
         align-items: baseline;
     }
+    .barra{
+        width: 71px;
+        height: 10px;
+        background-color: #0699A6;
+    }
    
     /*---Main--- */
     
