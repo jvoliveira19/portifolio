@@ -193,11 +193,12 @@ h1{
           flex-direction: column-reverse;
           align-items: center;
        }
-       .skills .sobre{
+       .skills, .sobre{
          max-width: 100%;
        }
        .info{
          max-width: 335px;
        }
+      
 
       }
