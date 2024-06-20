@@ -99,7 +99,7 @@
        margin-bottom: 100px;
        width: 350px;
     }
-   
+
     .sobre{
         max-width: 635px;
         
@@ -154,7 +154,7 @@
     
     /*---Tablet--- */
     @media screen and (max-width:768px){
-       h1{
+      h1{
           font-size: 56px;
           line-height: 46px;
        }
